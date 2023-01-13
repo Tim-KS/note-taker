@@ -29,6 +29,8 @@ notes.post('/', (req, res) => {
     }
 });
 
+
+// Functionality for deleting notes
 notes.delete("/:id", (req, res) => {
     console.info(`${req.method}`);
     const notesId = req.params.id.toString();
