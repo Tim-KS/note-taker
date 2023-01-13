@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const { clog } = require('./middlware/clog');
+const { clog } = require('./middleware/clog');
 const api = require('./routes/index.js');
 
 // PORT

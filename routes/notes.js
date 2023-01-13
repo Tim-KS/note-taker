@@ -1,5 +1,5 @@
 const notes = require('express').Router();
-const fs = rqeuire('fs');
+const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 const { readAndAppend, readFromFile } = require('../helpers/fsUtils');
 
